@@ -71,6 +71,45 @@ nav li a{
     line-height: auto
     ;
     letter-spacing: 0;
-    color: #252432;
     
+    
+}
+/* action style */
+.action {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 115px;
+
+}
+
+.action-description {
+    font-weight: Regular;
+    color:#25243250%;
+    font-size: 24px;
+    line-height: 30px;
+    gap: 23px;
+}
+
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    line-height: auto;
+    color: #252432;
+    gap: 23px;
+
+}
+
+.action-content{
+    max-width: 1140px;
+}
+.action-profile-pic{
+    width: 403px;
+    border-radius: 40px;
+}
+
+/* main style */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
 }
